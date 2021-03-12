@@ -254,6 +254,9 @@
         ["in", "class", "residential"]
       ],
       "minzoom": 12,
+      "layout": {
+        "visibility": "none"
+      },
       "paint": {
         "fill-color": "gray",
         "fill-opacity": [
