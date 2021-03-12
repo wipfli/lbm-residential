@@ -245,6 +245,29 @@
       }
     },
     {
+      "id": "landuse-residential",
+      "type": "fill",
+      "source": "ballometer_openmaptiles",
+      "source-layer": "landuse",
+      "filter": [
+        "all",
+        ["in", "class", "residential"]
+      ],
+      "minzoom": 12,
+      "paint": {
+        "fill-color": "gray",
+        "fill-opacity": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          12,
+          0.2,
+          14,
+          0.1
+        ]
+      }
+    },
+    {
       "id": "landuse",
       "type": "fill",
       "source": "swissmaptiles",
