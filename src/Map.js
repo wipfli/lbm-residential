@@ -3,6 +3,8 @@ import React, { useRef, useState, useEffect } from 'react'
 import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 
+import style from './style'
+
 const Map = ({
     centerLongitude,
     centerLatitude,
@@ -14,7 +16,7 @@ const Map = ({
     useEffect(() => {
         const map = new maplibregl.Map({
             container: mapContainerRef.current,
-            style: 'https://vectortiles.geo.admin.ch/styles/ch.swisstopo.leichte-basiskarte.vt/style.json',
+            style: style,
             center: [centerLongitude, centerLatitude],
             zoom: zoom,
         })
