@@ -5,8 +5,8 @@ import Map from './Map'
 
 ReactDOM.render((
   <Map
-    centerLongitude={8.55301}
-    centerLatitude={47.35257}
-    zoom={8}
+    centerLongitude={8.047798}
+    centerLatitude={47.359256}
+    zoom={13}
   />
 ), document.getElementById('root'))
