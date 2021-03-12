@@ -19,6 +19,10 @@
       "tileSize": 256,
       "minzoom": 0,
       "maxzoom": 22
+    },
+    "ballometer_openmaptiles": {
+      "type": "vector",
+      "url": "https://ballometer.io/tiles/data/v3.json"
     }
   },
   "sprite": "https://vectortiles.geo.admin.ch/styles/ch.swisstopo.leichte-basiskarte.vt/v1.0.0/sprite/sprite",
